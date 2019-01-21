@@ -17,6 +17,6 @@
 ## Banco de Dados
 
 - `URL`: http://localhost:8081/h2
-- `Base de Dados`: jdbc:h2:file:/home/taxas_bd
+- `Base de Dados`: jdbc:h2:file:~/taxas_bd
 - `Usuário`: admin
 - `Senha`: admin
