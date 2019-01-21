@@ -1,5 +1,7 @@
 package br.com.danilo.teste.taxa.ws.controller;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
@@ -30,7 +32,7 @@ public class TaxaController {
 	}
     
     @GetMapping(value = "/cpf/{cpf}")
-    public Taxa findByCpf(@PathVariable("cpf") String cpf) {
+    public List<Taxa> findByCpf(@PathVariable("cpf") String cpf) {
     	return repository.findByCpf(cpf);
     }
 

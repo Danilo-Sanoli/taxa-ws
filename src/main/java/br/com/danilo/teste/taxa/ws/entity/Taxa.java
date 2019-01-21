@@ -21,7 +21,7 @@ public class Taxa {
 	@Column(name = "NU_LIMITE_CREDITO")
 	private String limiteCredito;
 
-	@Column(name = "DE_CPF", unique = true)
+	@Column(name = "DE_CPF")
 	private String cpf;
 
 	@Column(name = "DE_RISCO")
